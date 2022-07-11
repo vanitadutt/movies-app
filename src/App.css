@@ -1,0 +1,55 @@
+.banner-card{
+    width: 100vw;
+    margin-top: 2vh;
+    height: 70vh;
+    position: relative;
+    margin-bottom: 3vh;
+}
+
+.banner-img{
+    height: 70vh;
+    width: 100%;
+}
+
+.banner-title{
+    position: absolute;
+    font-size: 50px;
+    top: 45vh;
+    color: white;
+    left: 5vh;
+}
+
+.banner-text{
+    position: absolute;
+    font-size: 20px;
+    top: 55vh;
+    color: white;
+    left: 5vh;
+    height: 4.5vw;
+}
+
+.movies-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.movie-card{
+    margin: 1rem;
+    width: 20vw;
+    position: relative;
+}
+
+.movie-title{
+    position:absolute;
+    top:1rem;
+    left: 1rem;
+    color: white;
+}
+
+.movies-button{
+    position: absolute;
+    bottom: 2rem;
+    left: 3.5rem;
+}
